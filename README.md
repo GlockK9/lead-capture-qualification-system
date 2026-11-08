@@ -10,14 +10,27 @@ Qualified leads can trigger automated email notifications, while leads that requ
 
 ## Workflow Architecture
 
+### 1. Lead Capture & Qualification Workflow
+
 1. **Webhook Trigger:** Receives incoming lead submissions.
 2. **Input Validation:** Checks submitted lead information.
-3. **Lead Scoring:** Evaluates leads based on defined qualification criteria.
+3. **Lead Scoring:** Evaluates leads using defined qualification criteria.
 4. **Lead Classification:** Assigns a qualification status.
-5. **Data Storage:** Records lead information and qualification results in Google Sheets.
+5. **Data Storage:** Saves lead information and scoring results in Google Sheets.
 6. **Notification:** Sends automated email notifications when applicable.
-7. **Error Handling:** Supports failure detection and error management.
 
+### 2. Lead Capture Error Handler
+
+A separate error-handling workflow designed to manage failures within the main Lead Capture workflow.
+
+- Detects workflow execution errors.
+- Captures relevant error information.
+- Supports centralized error monitoring and reporting.
+- Helps make the automation more reliable.
+
+### Workflow Integration
+
+The main Lead Capture workflow handles lead processing, while the Error Handler manages execution failures separately.
 ## Technologies Used
 
 - n8n
