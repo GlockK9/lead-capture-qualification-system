@@ -59,4 +59,3 @@ Built to demonstrate workflow automation, API integration, data validation, cond
 <img width="932" height="255" alt="Screenshot 1" src="https://github.com/user-attachments/assets/d979944a-1c96-4583-8643-e463d13d06d3" />
 <img width="972" height="551" alt="Screenshot 2" src="https://github.com/user-attachments/assets/5848aaba-0dd1-4fe4-b600-4ca5db6d3bc7" />
 <img width="1011" height="466" alt="Screenshot 3" src="https://github.com/user-attachments/assets/8d8cfacb-1010-450f-80d2-35e47825cba3" />
-<img width="876" height="602" alt="Screenshot 9" src="https://github.com/user-attachments/assets/b1ae4eba-f410-4a3d-9321-acc7bed1e5ba" />
